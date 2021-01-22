@@ -1,3 +1,3 @@
-# PyCalender
+# PyCalendar
 
-A script to show the calender for a specific month and year written in python
+A script to show the calendar for a specific month and year written in python

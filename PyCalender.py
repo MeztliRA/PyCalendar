@@ -1,4 +1,4 @@
-# Import the calender module.
+# Import the calendar module.
 import calendar
 
 # Get the year and month.
@@ -7,14 +7,14 @@ Year = int(input())
 print('Please enter the month(in number): ')
 Month = int(input())
 
-# Function to print the calender.
-def Print_Calender(Year, Month):
-    print('\nHeres the calender for this month: ')
+# Function to print the calendar.
+def Print_Calendar(Year, Month):
+    print('\nHeres the calendar for this month: ')
     print(calendar.month(Year, Month))
     return
 
-# Call the Print_Calender function.
-Print_Calender(Year, Month)
+# Call the Print_Calendar function.
+Print_Calendar(Year, Month)
 
 # Wait for user input before exitting.
 input('\nPress enter to exit')
